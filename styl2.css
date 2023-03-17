@@ -1,0 +1,57 @@
+/* Wylączanie automatycznych stylow przegladarki */
+body, h1, p, th, td, tr {
+    margin: 0;
+    padding: 0;
+  }
+  
+body {
+    font-family: Helvetica;
+    border: none;
+    padding: none;
+}
+
+header {
+    display: flex;
+}
+.h-prawy,.h-lewy {
+    width: 25%;
+    height: 80px;
+    color: #FFFFFF;
+    background-color: rgb(70, 130, 180);
+}
+.h-srodkowy {
+    width: 50%;
+    height: 80px;
+    background-color: rgb(70, 130, 180);
+    color: #FFFFFF;
+    text-align: center;
+}
+main {
+    padding: 40px;
+    background-color: rgb(224, 255, 255);
+}
+section {
+    display: flex;
+}
+.s-lewy,.s-prawy {
+    width: 50%;
+    height: 200px;
+    background-color: rgb(70, 130, 180);
+    text-align: center;
+}
+.f-akapit {
+    background-color: rgb(224, 255, 255);
+}
+table {
+    width: 100%;
+    border: 1px solid #0000FF;
+    border-collapse: collapse;
+}
+td {
+    border: 1px solid #0000FF;
+}
+th {
+    border: 1px solid #0000FF;
+    background-color: #0000FF;
+    color: #FFFFFF;
+}
